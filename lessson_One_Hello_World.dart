@@ -6,4 +6,13 @@ void main(List<String> args) {
   comment line
   comment line
   */
+  emir();
+}
+
+void emir() {
+  int i = 1;
+  while (i <= 31) {
+    print(i.toString() + "kere emir abimi I suck :=)");
+    i++;
+  }
 }
