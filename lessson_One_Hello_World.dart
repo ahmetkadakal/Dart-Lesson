@@ -12,7 +12,7 @@ void main(List<String> args) {
 void emir() {
   int i = 1;
   while (i <= 31) {
-    print(i.toString() + "kere emir abimi I suck :=)");
+    print(i.toString() + ". Hello World ");
     i++;
   }
 }
