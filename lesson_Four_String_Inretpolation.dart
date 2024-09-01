@@ -12,6 +12,7 @@ void main(List<String> args) {
   double size = 15;
   double height = 20;
 
+  //rectengle area = width * size * height
   double area = widt * size * height;
   print(
       " rectangle area  widt : $widt size : $size height : $height area : $area ");

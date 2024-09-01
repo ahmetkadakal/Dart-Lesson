@@ -6,7 +6,7 @@ void main(List<String> args) {
   comment line
   comment line
   */
-  emir();
+  sayHelloWorld();
 }
 
 void sayHelloWorld() {

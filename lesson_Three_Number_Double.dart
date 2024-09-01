@@ -20,6 +20,7 @@ void main(List<String> args) {
   number = 31;
   print(number);
 
+  //null safety 
   double? n1 = null;
   print(n1);
 
