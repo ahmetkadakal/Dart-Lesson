@@ -9,7 +9,7 @@ void main(List<String> args) {
   emir();
 }
 
-void emir() {
+void sayHelloWorld() {
   int i = 1;
   while (i <= 31) {
     print(i.toString() + ". Hello World ");
