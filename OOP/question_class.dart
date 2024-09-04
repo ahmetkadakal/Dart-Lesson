@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:math';
 
 class Cricle {
@@ -47,7 +46,7 @@ class Student {
     for (var i = 0; i < 100; i++) {
       rndTwo.add(Random().nextInt(100) + 1);
     }
-    print(rndTwo);
+
     return rndTwo;
   }
 
@@ -60,10 +59,21 @@ class Student {
     return _student;
   }
 
+  double _averageCalculater() {
+    double result = 0;
+    double lastResault;
+    for (var element in _randomSccore()) {
+      result = result + element;
+    }
+    lastResault = result / _randomSccore().length;
+    return lastResault;
+  }
+
   void sayInfo() {
     var say = scoreAndId();
     for (var element in say.entries) {
-      print("Student id :  ${element.key} student point : ${element.value}");
+      print("Student id :  ${element.key} student point : ${element.value} ");
     }
+    print("students score average ${_averageCalculater()}");
   }
 }
