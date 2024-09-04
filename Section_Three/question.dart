@@ -19,7 +19,7 @@ void main(List<String> args) {
     print(k.key + " " + k.value.toString());
   }
 
-  Map citys = {
+  /* Map citys = {
     "cityOne": {"name": "giresun", "number of districts": 15, "plaque": 28},
     "cityTwo": {"name": "ankara", "number of districts": 21, "plaque": 06},
     "cityThree": {"name": "istanbul", "number of districts": 41, "plaque": 34},
@@ -30,7 +30,13 @@ void main(List<String> args) {
         element.value["number of districts"].toString() +
         " " +
         element.value["plaque"].toString());
-  }
+  } */
+
+  List<Map<String, dynamic>> citys = <Map<String, dynamic>>[];
+  Map<String, dynamic> entryCity = {};
+  entryCity["cityName"] = "giresun";
+  citys.add(entryCity);
+  print(entryCity);
 
   //question 4
   List<int> listOne = List.filled(5, 0);
