@@ -5,4 +5,7 @@ void main(List<String> args) {
   c1.sayInfo();
   Student s1 = Student();
   s1.sayInfo();
+  Student s2 = Student();
+  print("""""" """""" "");
+  s2.sayInfo();
 }

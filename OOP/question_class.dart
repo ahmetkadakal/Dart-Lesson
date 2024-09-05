@@ -26,9 +26,7 @@ class Cricle {
 class Student {
   Map<int, int> _student = {};
 
-  Student() {
-    this._student = _student;
-  }
+  Student() {}
 
   List<int> _randomId() {
     List<int> rnd = [];
@@ -50,7 +48,7 @@ class Student {
     return rndTwo;
   }
 
-  Map<int, int> scoreAndId() {
+  Map<int, int> _scoreAndId() {
     var randomId = _randomId();
     var randomSccore = _randomSccore();
     for (int i = 0; i < randomId.length; i++) {
@@ -70,7 +68,7 @@ class Student {
   }
 
   void sayInfo() {
-    var say = scoreAndId();
+    var say = _scoreAndId();
     for (var element in say.entries) {
       print("Student id :  ${element.key} student point : ${element.value} ");
     }
