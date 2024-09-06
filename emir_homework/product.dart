@@ -3,5 +3,4 @@ class Product {
   int? amount;
   double? price;
   double? discount;
-  Product() {}
 }

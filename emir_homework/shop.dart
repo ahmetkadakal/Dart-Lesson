@@ -1,4 +1,8 @@
+import './product.dart';
+
 class Shop {
-  List shop = [];
+  List<Product> product = [];
   Shop() {}
+
+  Product newProduct = new Product();
 }
